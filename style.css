@@ -1,0 +1,15 @@
+body {
+    background-color: slateblue;
+}
+
+.header {
+    font-size: 75px;
+    font-variant-caps: all-small-caps;
+    text-align: center;
+    text-shadow: 5px 4px 0px rgb(75, 75, 75);
+    color: rgb(50, 50, 175);
+    font-weight: 999;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid black;
+    
+}
