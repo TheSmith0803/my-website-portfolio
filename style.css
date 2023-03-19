@@ -1,3 +1,7 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
     background-color: slateblue;
 }
@@ -5,11 +9,22 @@ body {
 .header {
     font-size: 75px;
     font-variant-caps: all-small-caps;
-    text-align: center;
     text-shadow: 5px 4px 0px rgb(75, 75, 75);
     color: rgb(50, 50, 175);
     font-weight: 999;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 5px solid black;
-    
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border: 25px solid black;
+    border-radius: 50px;
+}
+
+.paragraph {
+    -webkit-text-stroke: 1px black;
+    color: dodgerblue;
+    margin: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
 }
