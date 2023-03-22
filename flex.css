@@ -1,0 +1,9 @@
+.page-elements {
+    display: flex;
+}
+
+.header,
+.page-links {
+    flex: 1;
+}
+
