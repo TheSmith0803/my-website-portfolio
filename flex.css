@@ -2,8 +2,15 @@
     display: flex;
 }
 
-.header,
 .page-links {
+    display: flex;
     flex: 1;
 }
+
+.lessons,
+.projects,
+.about {
+    flex: 1;
+}
+
 

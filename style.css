@@ -13,6 +13,7 @@ body {
     color: rgb(50, 50, 175);
     font-weight: 999;
     margin: auto;
+    margin-top: 40px;
     text-align: center;
     width: 200px;
     height: 100px;
@@ -28,9 +29,22 @@ body {
     -webkit-text-stroke: 1px black;
     font-weight: 900;
     font-size: 20px;
-    margin: auto;
+    margin: 0;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.page-links div {
+    margin: 1px;
+}
+
+.lessons,
+.projects,
+.about {
+    background-color: rgb(0, 141, 141);
     border: 5px solid black;
-    padding: 5px;
+    padding: 2px;
+    text-align: center;
 }
 
 .paragraph {
